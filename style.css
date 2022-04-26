@@ -1,0 +1,389 @@
+/* General styles */
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+
+
+body {
+    background-color: #121212;
+    padding: 0;
+    margin: 0;
+    border-width: 0;
+    color: whitesmoke;
+    
+    max-width: 100%;
+    min-height: 100%;
+    overflow-x: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+
+html {
+    padding: 0;
+    margin: 0;
+    
+}
+
+.underline {
+    background-color: #CD5C5C;
+    height: 1rem;
+    width: 15rem;
+    z-index: -1;
+    margin-left: 50%;
+    margin-top: -1.5%;
+    margin-bottom: 5%;
+}
+
+
+.heading {
+    color: whitesmoke;
+    width: 100%;
+
+    font-size: 5rem;
+
+    text-align: center;
+    margin-top: 3%;
+
+
+}
+
+/* Buttons */
+.scroll-bottom {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid whitesmoke;
+    border-radius: 0;
+    height: 30px;
+    width: fit-content;
+    display: flex;
+
+    justify-content: center;
+    position: relative;
+    background: -webkit-linear-gradient(transparent 50%, whitesmoke 50%);
+    background-size: 200px 60px;
+    transition: 0.5s;
+
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px 10px 0 10px;
+    
+    letter-spacing: 4px;
+}
+
+
+
+.scroll-bottom:hover {
+    background-position: 0 -30px;
+    color: #000000;
+}
+
+.left-btn {
+    position: absolute;
+    left: 49%;
+    margin-top: -2%;
+}
+
+.left-btn2{
+    position: absolute;
+    left: 60%;
+    margin-top: -2%;
+}
+
+.right-btn{
+    position: absolute;
+    right: 50%;
+    margin-top: -3%;
+}
+
+
+
+
+
+
+/* Intro section styles*/
+
+.myname {
+    color: grey;
+}
+
+.intro-text {
+    padding-top: 30%;
+    padding-left: 25%;
+    padding-bottom: 5%;
+    color: white;
+
+
+}
+
+
+
+.intro-section {
+    height: 100vh;
+    background-image: linear-gradient(to right bottom, #000000, #121111, #1d1c1b, #282724, #31322f);
+    margin-bottom: 0;
+
+
+
+
+}
+
+.navbar{
+    font-weight: bold;
+    font-size: large;
+}
+
+html::-webkit-scrollbar-thumb{
+    background-color: #CD5C5C;
+}
+
+html::-webkit-scrollbar{
+    width: 1vw;
+}
+
+html::-webkit-scrollbar-track{
+    background-color: darkgrey;
+}
+
+
+
+
+/* About me section styles*/
+#about-me {
+    height: 100vh;
+    margin-top: 0;
+}
+
+
+
+
+.about-me-text {
+    color: whitesmoke;
+    width: 30vw;
+    margin-left: 15vw;
+    font-weight: bold;
+}
+
+.avatar {
+    width: 300px;
+    border-radius: 500px;
+    margin-left: 15vw;
+    margin-bottom: 10px;
+    height: 300px;
+    border: 7px dashed whitesmoke;
+    padding: 1px;
+}
+
+.technologies-icons {
+    width: 30vw;
+    margin-top: -50vh;
+    margin-left: 60vw;
+}
+
+
+/* Project section styles*/
+.projects {
+    position: relative;
+    
+}
+
+.projects-heading {
+    width: 100%;
+    text-align: center;
+}
+
+.project-preview {
+    width: 40vw;
+    height: 45vh;
+}
+
+.project-example {
+    width: 60vw;
+    margin-bottom: 20%;
+}
+
+.pe-first{
+    margin-bottom: 27%;
+}
+
+.project-example-right {
+    
+    margin-left: 48vw;
+    
+}
+
+.project-title {
+    color: whitesmoke;
+    font-weight: bold;
+
+}
+
+.pt-left {
+    position: absolute;
+    margin-top: -27%;
+    margin-left: 42.2%;
+}
+
+.pt-right {
+    position: absolute;
+    margin-top: -27%;
+    margin-left: -22%;
+    width: fit-content;
+}
+
+
+
+
+.pic-background>img {
+    position: absolute;
+    bottom: 13%;
+    right: 0;
+}
+
+.pic-background-left>img {
+    position: absolute;
+    bottom: 13%;
+    left: 0;
+}
+
+.pic-background {
+    position: relative;
+    background-color: #CD5C5C;
+    height: 60vh;
+    width: 45vw;
+    transition: 0.2s;
+    
+    
+}
+
+.pic-background:hover{
+    transform: scale(0.9);
+}
+
+.pic-background-left {
+    position: relative;
+    background-color: #CD5C5C;
+    height: 60vh;
+    width: 45vw;
+    
+    transition: 0.2s;
+    display: inline-block;
+}
+
+.pic-background-left:hover{
+    transform: scale(0.9);
+}
+
+
+
+.project-description {
+    width: 40%;
+    font-size: 1.5rem;
+    margin-top: -30%;
+    z-index: 2;
+    position: relative;
+}
+
+.project-example-left {
+    margin-left: 5%;
+
+}
+
+.pd-left {
+    margin-left: 70%;
+    margin-top: -40%;
+    margin-bottom: 7%;
+}
+
+.pd-right {
+    margin-left: -33%;
+    margin-top: -40%;
+    margin-bottom: 7%;
+}
+
+/* Contact section styles*/
+
+.contact{
+    height: 90vh;
+    padding-bottom: 0;
+    padding-top: 10%;
+}
+
+.form-inner{
+    width: 650px;
+    max-width: 100%;
+    margin: 20px auto 25px auto;
+    
+}
+
+input{
+    padding: 30px;
+    border: 0;
+    width: 30vw;
+    font-size: 1rem;
+    background-color: #2d2d2d;
+    color: whitesmoke;
+    border-radius: 0;
+    margin-bottom: 5%;
+    margin-left: 15%;
+}
+
+textarea{
+    width: 30vw;
+    border-radius: 0;
+    color: whitesmoke;
+    padding: 1.3rem 30px 1rem 30px;
+    background-color: #2d2d2d;
+    min-height: 15em;
+    border: none;
+    margin-left: 15%;
+}
+
+
+.submit-btn{
+    margin-left: 65%;
+    width: 8vw;
+}
+
+.scroll-top{
+    margin-left: 50%;
+    background-color: #CD5C5C;
+    border: none;
+    font-weight: 900;
+    border-radius: 0;
+}
+/* Footer section styles*/
+
+footer{
+    height: 10vh;
+    background-color: #2d2d2d;
+}
+
+.link-icon{
+    color: whitesmoke;
+    transition: .2s;
+}
+
+.link-icon:hover{
+    transform: scale(1.1);
+}
+.fa-github{
+margin-left: 48.5%;
+margin-top: 2%;
+}
+
+.fa-envelope{
+margin-left: 2%;
+}
+
+.copyright-text{
+    margin-top: 9px;
+    margin-left: 48%;
+}
+
+.navbar-nav .nav-item.active .nav-link,
+.navbar-nav .nav-item:hover .nav-link {
+    color: #CD5C5C;
+}
